@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    background-color: #04021f;
+}
+
+.title-home {
+    color: #daa520 ;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.hand-dollar {
+    color:#04021f;
+}
+
+.btn-per {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+    width: 315px;
+    height: 150px;
+}
+
+.logo-avante {
+    width: 100px;
+    height: 70px;
+    display: inline;
+    margin-top: 15px;
+}
+
+#regForm {
+    max-width: 400px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    font-family: Raleway;
+    padding: 40px;
+    border-radius: 10px
+}
+
+#register {
+    color: #daa520
+}
+
+h1 {
+    text-align: center
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #daa520;
+    border-radius: 10px;
+    -webkit-appearance: none
+}
+
+small {
+    color:#aa2301
+}
+
+#sel {
+    min-height:auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #daa520;
+    border-radius: 10px;
+    -webkit-appearance: none
+}
+
+#sel option {
+    color: grey;
+}
+
+.tab select:focus {
+    border: 1px solid #daa520 !important;
+    outline: none
+}
+
+.tab input:focus {
+    border: 1px solid #daa520 !important;
+    outline: none
+}
+
+input.invalid {
+    border: 1px solid #aa2301
+}
+
+.tab {
+    display: none;
+}
+
+.button-form {
+    background-color: #daa520;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer
+}
+
+.button-form:hover {
+    opacity: 0.8
+}
+
+.button-form:focus {
+    outline: none !important
+}
+
+#prevBtn {
+    margin-top: 7px;
+    background-color: #bbbbbb
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center
+}
+
+.step {
+    height: 40px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #daa520;
+    opacity: 0.5
+}
+
+.step.active {
+    opacity: 1
+}
+
+.step.finish {
+    color: #04021f;
+    background: #daa520;
+    opacity: 1
+}
+
+.all-steps {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.thanks-message {
+    display: none
+}
